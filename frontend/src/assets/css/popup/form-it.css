@@ -1,0 +1,59 @@
+.form-it {
+    padding-bottom: 12px;
+}
+
+.form-it-label,
+.form-it-caption,
+.form-it-action {
+    line-height: 26px;
+    font-size: 16px;
+}
+
+.form-it-label {
+    color: #04569A;
+    cursor: pointer;
+    text-align: left;
+}
+
+.form-it-input {
+    border: 1px solid #31B2F2;
+    border-radius: 5px;
+    line-height: 32px;
+    font-size: 15px;
+    color: #505050;
+    outline: none;
+    padding: 0 6px;
+}
+
+.form-it-input:focus {
+    box-shadow: 0 0 5px #31B2F2;
+}
+
+.form-it-caption {
+    cursor: text;
+}
+
+.form-it-caption,
+.form-it-label {
+    padding: 0 0 6px 5px;
+}
+
+.form-it-action {
+    cursor: pointer;
+    color: #00b3ff;
+    padding: 0 5px 6px;
+    margin-right: 12px;
+    user-select: none;
+}
+
+.form-it-action:hover {
+    color: #04569A;
+    text-decoration: underline;
+}
+
+.form-it-check-value {
+    padding: 0 5px;
+    color: #4DB231;
+    font-size: 16px;
+    max-height: 25px;
+}

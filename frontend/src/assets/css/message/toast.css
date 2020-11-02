@@ -1,0 +1,41 @@
+.toast {
+    position: fixed;
+    margin-right: 25vw;
+    line-height: 36px;
+    color: #fff;
+    font-size: 16px;
+    padding-top: 5px;
+    z-index: 22;
+}
+
+.toast-it {
+    margin-bottom: 8px;
+    animation: toast 5s linear;
+    user-select: none;
+}
+
+.toast-it-text{
+    cursor: text;
+    border-radius: 5px;
+    padding: 5px 12px;
+}
+
+.toast-it-success {
+    background-color: #5DA046;
+}
+
+.toast-it-error {
+    background-color: #E35A58;
+}
+
+@keyframes toast {
+    0% {
+        opacity: 1;
+    }
+    60% {
+        opacity: 1;
+    }
+    100% {
+        opacity: 0.1;
+    }
+}

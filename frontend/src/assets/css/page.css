@@ -1,0 +1,14 @@
+.page {
+    flex-grow: 1;
+}
+
+.home-title{
+        font-size: 32px;
+        line-height: 56px;
+        padding: 3vh 0 5vh;
+}
+
+.home-banner{
+    max-height: 80vh;
+    max-width: 50vw;
+}

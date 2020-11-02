@@ -1,0 +1,20 @@
+.popup {
+    position: fixed;
+    z-index: 10;
+}
+
+.popup-shadow {
+    background-color: #000;
+    opacity: 0.5;
+    z-index: 11;
+}
+
+.popup-content {
+    position: relative;
+    z-index: 12;
+}
+
+
+
+
+

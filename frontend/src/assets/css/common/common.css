@@ -1,0 +1,101 @@
+.w,
+.hw {
+    width: 100vw;
+}
+
+.h,
+.hw {
+    height: 100vh;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.h100 {
+    height: 100%;
+}
+
+.mw100 {
+    max-width: 100%;
+}
+
+.mh100 {
+    max-height: 100%;
+}
+
+.t0 {
+    top: 0;
+}
+
+.l0 {
+    left: 0;
+}
+
+.r0 {
+    right: 0;
+}
+
+.b0 {
+    bottom: 0;
+}
+
+
+.flex,
+.flex-dc,
+.flex-xb-yc,
+.flex-xc-yc {
+    display: flex;
+}
+
+.flex-xc,
+.flex-xc-yc {
+    justify-content: center;
+}
+
+.flex-xb,
+.flex-xb-yc {
+    justify-content: space-between;
+}
+
+
+.flex-yc,
+.flex-xb-yc,
+.flex-xc-yc {
+    align-items: center;
+}
+
+.flex-dc {
+    flex-direction: column;
+}
+
+.flex-warp {
+    flex-wrap: nowrap;
+}
+
+.text-c {
+    text-align: center;
+}
+
+.text-l {
+    text-align: left;
+}
+
+.box-c {
+    margin: 0 auto;
+}
+
+.fixed {
+    position: fixed;
+}
+
+.line-ellipsis {
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.line-break {
+    word-break: break-word;
+    white-space: normal;
+}

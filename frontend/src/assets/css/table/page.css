@@ -1,0 +1,13 @@
+.table-page-title {
+    font-size: 32px;
+    color: #666;
+    line-height: 50px;
+    padding: 5vh 0 3vh;
+}
+
+.table-page-footer {
+    line-height: 50px;
+    font-size: 32px;
+    color: #aaa;
+    padding-top: 60px;
+}

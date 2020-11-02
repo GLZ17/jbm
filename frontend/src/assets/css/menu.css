@@ -1,0 +1,27 @@
+.menu {
+    height: 100vh;
+    background-color: #F2EA7E;
+    line-height: 26px;
+    font-size: 16px;
+    padding: 20px 30px;
+    overflow: auto;
+}
+
+.menu-log-box {
+    padding: 20px 0;
+    max-width: 80px;
+}
+
+.menu-logo {
+    max-height: 100%;
+    max-width: 100%;
+    border-radius: 70px;
+}
+
+.menu-link {
+    color: #0D93CE;
+}
+
+.menu-name-list {
+    padding-left: 10px;
+}

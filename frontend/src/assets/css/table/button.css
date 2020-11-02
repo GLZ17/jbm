@@ -1,0 +1,155 @@
+.table-bar {
+    width: 92%;
+    margin-bottom: 3vh;
+}
+
+.button {
+    line-height: 36px;
+    font-size: 16px;
+    color: #fff;
+    border-radius: 6px;
+    padding: 0 16px;
+    cursor: pointer;
+    user-select: none;
+}
+
+.button-add {
+    background-color: #4DB231;
+}
+
+.button-add:hover {
+    background-color: #2E8615;
+}
+
+.button-back,
+.button-search {
+    background-color: #27ADE8;
+    margin-left: 16px;
+}
+
+.button-back:hover,
+.button-search:hover {
+    background-color: #0A86BC;
+}
+
+.button-input-search {
+    border: 1px solid #27ADE8;
+    outline: none;
+    border-radius: 6px;
+    line-height: 34px;
+    padding: 0 6px;
+    width: 150px;
+    font-size: 16px;
+    margin-left: 8px;
+}
+
+.button-input-search:focus {
+    box-shadow: 0 0 5px #0A86BC;
+}
+
+
+.button-index {
+    padding-top: 2vh;
+}
+
+.button-index-go,
+.button-index-input,
+.button-index-btn,
+.button-index-select {
+    border: 1px solid #aaa;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-right: 6px;;
+    font-size: 15px;
+    user-select: none;
+}
+
+.button-index-go:hover,
+.button-index-input:hover,
+.button-index-select:hover,
+.button-index-btn:hover {
+    border: 1px solid #0A86BC;
+    box-shadow: 0 0 3px #0A86BC;
+}
+
+.button-index-btn {
+    line-height: 28px;
+    padding: 0 12px;
+}
+
+.button-index-select {
+    height: 30px;
+    padding-left: 2px;
+    margin-right: 12px;
+}
+
+.button-index-caption {
+    font-size: 16px;
+    color: #555;
+    line-height: 28px;
+    padding-left: 5px;
+}
+
+.button-index-total {
+    padding: 0 3px;
+    color: #555;
+}
+
+.button-index-input,
+.button-index-go {
+    line-height: 20px;
+    padding: 3px 5px;
+}
+
+.button-index-input {
+    cursor: auto;
+    width: 50px;
+    margin: 0 0 0 6px;
+}
+
+.button-index-go {
+    margin-left: 3px;
+}
+
+.button-index-current:hover,
+.button-index-current {
+    border: 1px solid transparent;
+    cursor: text;
+    color: #0A86BC;
+    font-size: 16px;
+    box-shadow: none;
+}
+
+.table-list-btn {
+    padding: 0 12px;
+    font-size: 13px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: #fff;
+}
+
+.table-list-btn-edit {
+    background-color: #995F0D;
+}
+
+.table-list-btn-edit:hover {
+    background-color: #CB8115;
+}
+
+.table-list-btn-remove {
+    background-color: #942320;
+}
+
+.table-list-btn-remove:hover {
+    background-color: #DE3934;
+}
+
+.table-list-btn-check {
+    line-height: 30px;
+    background-color: #2E8615;
+}
+
+.table-list-btn-check:hover {
+    background-color: #4DB231;
+}

@@ -1,0 +1,19 @@
+@keyframes loading {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.loading {
+    z-index: 21;
+    width: 7vw;
+    height: 7vw;
+    border: 5px solid #ccc;
+    opacity: 0.8;
+    border-radius: 50%;
+    border-left-color: #fff;
+    animation: loading 0.6s linear infinite;
+}

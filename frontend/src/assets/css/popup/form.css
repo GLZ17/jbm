@@ -1,0 +1,39 @@
+.form-page {
+    padding: 15px 36px;
+    border-radius: 10px;
+    background-color: #fff;
+    border: 1px solid #00b3ff;
+    margin: 12vh 0 0;
+    max-height: 80vh;
+    overflow: auto;
+}
+
+.form-title {
+    text-align: center;
+    font-size: 26px;
+    color: #369;
+    line-height: 50px;
+}
+
+.form-btn {
+    min-width: 300px;
+    padding: 20px 50px 12px;
+    user-select: none;
+}
+
+.form-btn-it {
+    line-height: 32px;
+    background-color: #00b3ff;
+    color: #fff;
+    border-radius: 5px;
+    font-size: 15px;
+    border: none;
+    outline: none;
+    padding: 0 12px;
+    cursor: pointer;
+}
+
+.form-btn-it:hover {
+    background-color: #369;
+}
+
