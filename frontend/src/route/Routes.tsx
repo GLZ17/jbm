@@ -23,6 +23,8 @@ import BuildingLayerPageManage from "../page/layer/building/BuildingLayerPageMan
 import RoomLayerPageManage from "../page/layer/room/RoomLayerPageManage";
 import ProductLayerPageManage from "../page/layer/product/ProductLayerPageManage";
 
+import ProductInformationPageManage from "../page/information/product/ProductInformationPageManage";
+
 const dbs = [
     {
         component: Home,
@@ -81,6 +83,10 @@ const dbs = [
     {
         component: ProductLayerPageManage,
         path: ConfigRoute.product_layer.path
+    },
+    {
+        component: ProductInformationPageManage,
+        path: ConfigRoute.product_information.path
     }
 ];
 

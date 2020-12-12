@@ -22,6 +22,8 @@ const product_layer: IItem = {name: '产品', path: '/layer/product'};
 
 const product_information = {name: '产品', path: '/information/product'};
 const room_information = {name: '房间', path: '/information/room'};
+
+
 const ConfigRoute = {
     index,
 

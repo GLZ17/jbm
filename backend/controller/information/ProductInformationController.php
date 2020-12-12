@@ -42,9 +42,7 @@ class ProductInformationController extends ControllerInformation
 
     protected function appendWhereOfIndex(Db $db)
     {
-        $idInfoList = $this->idInfoList([$this->modelListOfUniqueValidate()[1]]);
-        $idInfo = $this->controller->idInfo();
-        array_push($idInfoList, $idInfo);
+        $idInfoList = [$this->controller->idInfo()];
         $this->appendInfoList($db, $idInfoList);
     }
 }
